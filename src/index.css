@@ -1,0 +1,82 @@
+/* body{
+  background-image: url(assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container{
+  backdrop-filter: blur(3px);
+  width: 100vw;
+  padding: 10px 0;
+
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+
+} */
+
+
+
+body{
+  background-image: url(assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container{
+  backdrop-filter: blur(3px);
+  width: 100vw;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+  transition: all 0.5s ease-in-out;
+}
+
+.clock:hover{
+  transform: scale(1.1);
+  color: #e0819e;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgba(185, 158, 158, 0.1);
+  color: white;
+  font-size: 11px;
+}
